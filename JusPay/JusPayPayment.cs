@@ -25,7 +25,6 @@ using System.Net.Security;
         {
             Config.Configure(Config.Environment.PRODUCTION, Merchant_ID, API_KEY);
         }
-
       public void CreateOrder()
       {
           var OrderDetails = new Dictionary<string, string>();
